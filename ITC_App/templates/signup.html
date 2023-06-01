@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<body>
+    <section style="background: linear-gradient(rgba(247, 232, 120, 0.7), orange);" >
+        <div class="container py-5 ">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                  alt="Sample photo">
+                <div class="card-body p-4 p-md-5">
+                    <h5 class="mb-3 pb-2 pb-md-0 mb-md-4 text-center">NEW CONSTRUCTION</h5>
+                    <h4 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">SIGNUP</h4>
+      
+                  <form>
+      
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example1q" class="form-control" />
+                      <label class="form-label" for="form3Example1q">Name</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form3Example1q" class="form-control" />
+                        <label class="form-label" for="form3Example1q">Email</label>
+                      </div>
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example1q" class="form-control" />
+                        <label class="form-label" for="form3Example1q">Country</label>
+                      </div>
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example1q" class="form-control" />
+                        <label class="form-label" for="form3Example1q">Password</label>
+                      </div>
+                      <a href="{% url 'login' %}">
+                        <button class="btn btn-dark btn-lg" type="button">Signup</button>
+                      </a>
+                  </form>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
